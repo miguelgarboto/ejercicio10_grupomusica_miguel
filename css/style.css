@@ -1,0 +1,25 @@
+#titulo_principal{
+    color: grey;
+    
+}
+
+#parrafo1{
+     width: 700px;
+}
+
+#duki{
+     
+      width: 500px;
+     background-color: powderblue;
+}
+
+h2{
+     color: silver;
+}
+
+table, th, td{
+     width: 15%;
+     border: 1px solid black;
+     border-collapse: collapse;
+}
+
