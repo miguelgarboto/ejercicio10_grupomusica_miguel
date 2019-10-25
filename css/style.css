@@ -1,16 +1,26 @@
+body{
+     font-family: sans-serif;
+}
 #titulo_principal{
-    color: grey;
-    
+    color: grey;    
 }
 
 #parrafo1{
-     width: 700px;
+     width: 580px;
 }
 
-#duki{
+#foto1{
      
-      width: 500px;
+      width: 480px;
      background-color: powderblue;
+}
+
+#titulo2{
+     color: gray;
+}
+
+#titulo3{
+     color: gray;
 }
 
 h2{
@@ -18,8 +28,13 @@ h2{
 }
 
 table, th, td{
-     width: 15%;
+     width: 30%;
      border: 1px solid black;
      border-collapse: collapse;
+     padding: 2%;
+     text-align: center;
 }
 
+#footer{
+     color: gray;
+}
