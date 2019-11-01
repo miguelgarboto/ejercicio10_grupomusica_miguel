@@ -1,52 +1,43 @@
+/* Todo el cuerpo tendra una tipografia sans-serif y un color de fondo whitesmoke */
 body{
-     font-family: sans-serif;
+     font-family: sans-serif; 
      background-color: whitesmoke;
 }
-#titulo_principal{
+/* Los tres titulos mencioandos seran de color gris*/
+#titulo_principal, #titulo2, #titulo3{
     color: grey;    
 }
-
+/* El parrafo1 ocupa 580px de ancho*/
 #parrafo1{
      width: 580px;
 }
-
+/* EL ancho de la imagen es de 480px */
 #foto1{
-     
       width: 480px;
-     background-color: powderblue;
 }
 
-#titulo2{
-     color: gray;
-}
-
-#titulo3{
-     color: gray;
-}
-
-h2{
-     color: silver;
-}
-
-table, th, td{
-     width: 30%;
-     border: 1px solid black;
-     border-collapse: collapse;
-     padding: 2%;
-     text-align: center;
+/* La tabla tiene un formato con: */
+table, th, td{ 
+     width: 30%; /* Una anchura del 30%*/
+     border: 1px solid black; /* Un borde de un pixel de color negro*/
+     border-collapse: collapse; /* El borde esta formado solo por una linea */
+     padding: 2%; /* Un relleno del 2%*/
+     text-align: center; /* El texto esta alineado en el centro de las celdas*/
      
 }
-
+/* La primera fila tiene el fondo gris y las letras estan en blanco */
 th{
      background-color: gray;
      color: white;
 }
 
-#footer{
-     color: gray;
-}
-
+/* El fondo de la celda final es de color plata*/
 tfoot{
      background-color: silver;
      
+}
+
+/* El footer tiene el texto de color gris*/
+#footer{
+     color: gray;
 }
