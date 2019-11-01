@@ -38,9 +38,15 @@ table, th, td{
 }
 
 th{
-     background-color: silver;
+     background-color: gray;
+     color: white;
 }
 
 #footer{
      color: gray;
+}
+
+tfoot{
+     background-color: silver;
+     
 }
